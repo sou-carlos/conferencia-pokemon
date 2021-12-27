@@ -1,0 +1,22 @@
+:root{
+    --cor-primaria: #F5F5F5;
+    --fire-red:#EF4F25;
+    --leaf-green:#9BCC50;
+    --dark-leaf-green:#447722;
+    --water-blue:#1B82B1;
+    --font-color: rgb(20, 20, 20);
+}
+
+html{
+    font-family: 'Teko', sans-serif;
+    background-color: #7feca9;   
+    background-image: url(/img/page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth; 
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}

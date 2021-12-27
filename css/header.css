@@ -1,0 +1,86 @@
+.header{
+    background: url(/img/background.png) no-repeat;
+    background-size: cover;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    text-align: center;
+}
+
+.nav-item{
+    padding: 1rem;
+    display: inline-block;
+    background: var(--leaf-green);
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-bottom: 5px solid #447722;
+}
+
+.nav-item:hover{
+    background: var(--dark-leaf-green);
+    border-bottom: 5px solid rgb(9, 41, 9);
+    transition: 0.4s;
+}
+
+.nav-item-link{
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 0px 2px 2px rgb(51, 51, 51);
+}
+.titulos{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.titulo-principal{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    font-size: 2.5rem;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px black;
+}
+
+.titulo-secundario{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color:var(--leaf-green);
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px black;
+}
+
+.header-inscricao{
+    font-family: 'Press Start 2P', cursive;
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    text-decoration: none;
+    background: var(--leaf-green);
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgb(51, 51, 51);
+    border-bottom: 5px solid #447722;
+}
+
+.header-inscricao:hover{
+    background: var(--dark-leaf-green);
+    border-bottom: 5px solid rgb(9, 41, 9);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 480px){
+    .titulos section {
+        width: 100%;
+    }
+}

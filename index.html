@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A maior conferencia pokémon do mundo, onde será abordado os assuntos mais relevantes do universo pokémon, Let's catcher them all!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeconf</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li class="nav-item"><a href="#sessao-sobre" class="nav-item-link">sobre</a></li>
+                <li class="nav-item"><a href="#palestrantes" class="nav-item-link">palestrantes</a></li>
+            </ul>
+        </nav>
+        <section class="titulos">        
+            <h1 class="titulo-principal">Conferência Pokémon</h1>
+            <h2 class="titulo-secundario">29 de Janeiro</h2>
+        </section>
+        <section>
+            <a href="#form-inscricao" class="header-inscricao">Inscreva-se</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="sessao-sobre container" id="sessao-sobre">
+            <h2 class="subtitulo-principal"> Muito conteúdo: as mais recentes descobertas pokémons</h2>
+            <h3 class="subtitulo-secundario">29 de Janeiro - Cidade de Pallet</h3>
+            <p class="sobre-descricao">
+                Com a conferencia pokémon abordaremos os principais tópicos acerca de como cuidar dos seues pókemons, estrategias de combate e a mais
+                recentes descobertas no mundo pokémon.
+            </p>
+        </section>
+
+        <section class="container palestrantes">
+            <h2 class="subtitulo-principal">Palestrantestes</h2>
+            <h3 class="palestrantes-descricao">Palestranstes especialistas em pokémons!</h3>
+        </section>
+
+        <section class="container palestrantes" id="palestrantes">
+            <ul>
+                <li class="card">
+                    <figure>
+                        <img src="img/carvalho.png" alt="" class="card-imagem-palestrante">
+                    </figure>
+                    <figcaption>
+                        <p class="card-nome-palestrante">Professor Carvalho</p>
+                        <p class="card-text-palestrante">Cientista especilista na relação entre humanos e Pokémon.</p>
+                    </figcaption>
+                </li>
+                <li class="card">
+                    <figure>
+                        <img src="img/red.png" alt="" class="card-imagem-palestrante">
+                    </figure>
+                    <figcaption>
+                        <p class="card-nome-palestrante">Red</p>
+                        <p class="card-text-palestrante">Mestre pokémon, vencedor da liga pokémon</p>
+                    </figcaption>
+                </li>
+                <li class="card">
+                    <figure>
+                        <img src="img/brook.png" alt="" class="card-imagem-palestrante">
+                    </figure>
+                    <figcaption>
+                        <p class="card-nome-palestrante">Brook</p>
+                        <p class="card-text-palestrante">Lider de Ginásio e especilista em pokémons tipo pedra</p>
+                    </figcaption>
+                </li>
+                <li class="card">
+                    <figure>
+                        <img src="img/misty.png" alt="" class="card-imagem-palestrante">
+                    </figure>
+                    <figcaption>
+                        <p class="card-nome-palestrante">Misty</p>
+                        <p class="card-text-palestrante">Lider de Ginásio e especilista em pokémons tipo água</p>
+                    </figcaption>
+                </li>
+                <li class="card">
+                    <figure>
+                        <img src="img/blue.png" alt="" class="card-imagem-palestrante">
+                    </figure>
+                    <figcaption>
+                        <p class="card-nome-palestrante">Blue</p>
+                        <p class="card-text-palestrante">Mestre pokémon e Ex-campeão da elite dos 4 de Kanto</p>
+                    </figcaption>
+                </li>
+                <li class="card">
+                    <figure>
+                        <img src="img/sabrina.png" alt="" class="card-imagem-palestrante">
+                    </figure>
+                    <figcaption>
+                        <p class="card-nome-palestrante">Sabrina</p>
+                        <p class="card-text-palestrante">Lider de Ginasio e especilista em pokémons psíquicos</p>
+                    </figcaption>
+                </li>
+            </ul>
+        </section>
+
+        <section class="form-section" id="form-inscricao">
+            <h2 class="form-title">
+                Inscrição
+            </h2>
+            <form class="formulario">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" name="nome" class="form-input">
+
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="email" class="form-input">
+
+                <button class="form-button">Realizar Inscrição</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
